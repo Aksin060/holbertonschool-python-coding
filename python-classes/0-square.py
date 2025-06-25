@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Salam"""
+'''Salam'''
 class Square:
-    """Salam"""
+    '''Salam'''
     def __init__(self, size):
         self.__size = size
