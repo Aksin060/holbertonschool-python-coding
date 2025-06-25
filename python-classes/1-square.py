@@ -4,5 +4,8 @@
 
 class Square:
     '''Salam'''
-    def __init__(self, size):
-        self.__size = size
+    try:
+        def __init__(self, size):
+            self.__size = size
+    except TypeError:
+        print("size must be an integer")
